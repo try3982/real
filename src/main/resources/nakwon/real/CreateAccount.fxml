@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="su_signupForm" prefHeight="400.0" prefWidth="600.0" styleClass="white-form" stylesheets="@logindesign.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nakwon.real.CreateAccountController">
+    <children>
+        <Label layoutX="220.0" layoutY="41.0" prefHeight="26.0" prefWidth="87.0" styleClass="head-label" stylesheets="@logindesign.css" text="계정생성" textFill="#2c2727">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="su_username" layoutX="183.0" layoutY="123.0" prefHeight="30.0" prefWidth="220.0" promptText="아이디" styleClass="textfield" stylesheets="@logindesign.css" />
+        <PasswordField fx:id="su_password" layoutX="183.0" layoutY="163.0" prefHeight="30.0" prefWidth="220.0" promptText="비밀번호" styleClass="textfield" stylesheets="@logindesign.css" />
+        <Button fx:id="su_signupBtn" layoutX="183.0" layoutY="333.0" mnemonicParsing="false" onAction="#regBtn" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@logindesign.css" text="계정 등록" />
+        <ComboBox fx:id="su_question" layoutX="183.0" layoutY="238.0" prefHeight="30.0" prefWidth="220.0" promptText="Question" styleClass="textfield" stylesheets="@logindesign.css" />
+        <PasswordField fx:id="su_repassword" layoutX="183.0" layoutY="200.0" prefHeight="30.0" prefWidth="220.0" promptText="비밀번호 재입력" styleClass="textfield" stylesheets="@logindesign.css" />
+        <TextField fx:id="su_answer" layoutX="183.0" layoutY="272.0" prefHeight="30.0" prefWidth="220.0" promptText="답변" styleClass="textfield" stylesheets="@logindesign.css" />
+        <Button fx:id="backtoLoginBtn" layoutY="366.0" mnemonicParsing="false" onAction="#backtoLoginBtn" prefHeight="40.0" prefWidth="59.0" styleClass="login-btn" stylesheets="@logindesign.css" text="뒤로" />
+    </children>
+</AnchorPane>
+

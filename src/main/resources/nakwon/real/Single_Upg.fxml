@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nakwon.real.productCtrl">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="450.0">
+         <children>
+            <VBox prefHeight="450.0" prefWidth="450.0">
+               <children>
+                  <VBox fx:id="L_set_box" onMouseClicked="#L_set_CartClick" prefHeight="150.0" prefWidth="450.0" />
+                  <VBox fx:id="R_set_box" onMouseClicked="#R_set_CartClick" prefHeight="150.0" prefWidth="100.0" />
+                  <VBox fx:id="single_box" onMouseClicked="#Single_CartClick" prefHeight="150.0" prefWidth="100.0" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

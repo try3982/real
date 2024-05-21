@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nakwon.real.productCtrl">
+    <children>
+        <HBox alignment="TOP_RIGHT" prefHeight="22.0" prefWidth="71.0">
+            <children>
+                <Button fx:id="X_Button" mnemonicParsing="false" onMouseClicked="#removeFromCart" text="x" />
+            </children>
+        </HBox>
+        <ImageView fx:id="order_img" fitHeight="50.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+            <VBox.margin>
+                <Insets left="40.0" />
+            </VBox.margin>
+        </ImageView>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <Label fx:id="order_name" alignment="CENTER" prefHeight="14.0" prefWidth="150.0" text="Label">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="HYnamB" size="12.0" />
+                    </font>
+                </Label>
+                <Label fx:id="order_price" alignment="CENTER" contentDisplay="CENTER" prefHeight="14.0" prefWidth="150.0" text="Label">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="HYnamB" size="12.0" />
+                    </font>
+                </Label>
+                <HBox alignment="CENTER" prefHeight="26.0" prefWidth="150.0">
+                    <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#decreaseQuantity" prefHeight="20.0" prefWidth="20.0" text="-">
+                            <HBox.margin>
+                                <Insets top="6.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Label fx:id="quantityLabel" text="1">
+                            <HBox.margin>
+                                <Insets left="5.0" right="5.0" top="4.0" />
+                            </HBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" onMouseClicked="#increaseQuantity" prefHeight="20.0" prefWidth="20.0" text="+">
+                            <HBox.margin>
+                                <Insets top="6.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</VBox>

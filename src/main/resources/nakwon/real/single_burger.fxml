@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="sb_box" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nakwon.real.productCtrl">
+   <children>
+      <ImageView fx:id="img" fitHeight="75.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets left="25.0" top="10.0" />
+         </VBox.margin>
+         <image>
+            <Image url="@img/단품/통세우슈림프버거.png" />
+         </image>
+      </ImageView>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="14.0" prefWidth="151.0" text="통세우슈림프버거">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="HYnamB" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="priceLabel" alignment="CENTER" prefHeight="25.0" prefWidth="162.0" text="8000">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font name="HYnamB" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</VBox>

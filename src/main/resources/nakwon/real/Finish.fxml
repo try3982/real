@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nakwon.real.payment">
+    <children>
+        <VBox alignment="CENTER" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #fff;">
+            <children>
+                <ImageView fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <image>
+                        <Image url="@img/결재/결재완료.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="pay" alignment="CENTER" prefHeight="19.0" prefWidth="400.0" text="총 결재 금액">
+                    <font>
+                        <Font name="HYsupM" size="15.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Label>
+                <Label text="결재가 완료되었습니다" textFill="#5b4547">
+                    <font>
+                        <Font name="HYsupB" size="20.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Label>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

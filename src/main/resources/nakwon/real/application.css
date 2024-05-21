@@ -1,0 +1,60 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.white-form{
+    -fx-background-color: #fff;
+}
+
+#single_scroll .scroll-bar{
+    -fx-cursor: hand;
+    -fx-pref-width: 20px; /* 너비를 10px로 설정 */
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+
+}
+
+#set_scroll .scroll-bar{
+    -fx-cursor: hand;
+    -fx-pref-width: 20px; /* 너비를 10px로 설정 */
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+
+}
+
+#side_scroll .scroll-bar{
+    -fx-cursor: hand;
+    -fx-pref-width: 20px; /* 너비를 10px로 설정 */
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+
+}
+
+#drink_scroll .scroll-bar{
+    -fx-cursor: hand;
+    -fx-pref-width: 20px; /* 너비를 10px로 설정 */
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+
+}
+
+#cart_scroll .scroll-bar{
+    -fx-cursor: hand;
+    -fx-pref-width: 20px; /* 너비를 10px로 설정 */
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+
+}
+
+.scroll {
+    -fx-background-color: #fff;
+}
+
+.set_scroll {
+    -fx-background-color: #fff;
+}
+
+#side_scroll {
+    -fx-background-color: #fff;
+}
+
+#drink_scroll {
+    -fx-background-color: #fff;
+}
